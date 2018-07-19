@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.2)
+  - HandyJSON (4.1.1)
+  - Kingfisher (4.8.0)
+  - Parchment (1.3.0)
+  - SwiftFCXRefresh (0.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON (~> 4.1.1)
+  - Kingfisher
+  - Parchment
+  - SwiftFCXRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - Parchment
+    - SwiftFCXRefresh
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  Parchment: 3c84b1fd55182e91b2e0f3bf1e4034c387151a46
+  SwiftFCXRefresh: 74cad61a77485cb510a23b485913039f347e67ce
+
+PODFILE CHECKSUM: e24577bdcfa08cc7dd5b54ecf48eb4c1fdf3940b
+
+COCOAPODS: 1.5.3

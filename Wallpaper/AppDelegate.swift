@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.makeKeyAndVisible()
+        
+        
+//        let mainTabbar = TabBarController()
+//        let nav = UINavigationController(rootViewController: mainTabbar)
+//        nav.navigationBar.isHidden = true
+        let mine = MineVC()
+        let mineNAV = UINavigationController(rootViewController: mine)
+//        let mineVC:MineVC = MineVC()
+        self.window?.rootViewController = mineNAV
+        
         return true
     }
 
